@@ -70,7 +70,12 @@ public class Persona extends PersonaApp.PersonaPOA {
                          +  rs.getString(4)+ " - "
                          + rs.getString(5)+ " - "
                          + rs.getString(6)+ " - "
-                         + rs.getString(7);
+                         + rs.getString(7);  
+                
+                
+                
+                
+                
                         
                 
             }
