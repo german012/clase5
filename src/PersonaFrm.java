@@ -53,12 +53,6 @@ public class PersonaFrm extends javax.swing.JFrame {
 
         jLabel2.setText("Identificacion");
 
-        txtIdentificacion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtIdentificacionActionPerformed(evt);
-            }
-        });
-
         jLabel3.setText("Nombre");
 
         jLabel4.setText("Apellido");
@@ -254,10 +248,6 @@ per.insertarPersona(0,txtNombre.getText(),txtApellido.getText(),txtTelefono.getT
         String lista = per.consultarPersona(identificacion);
         JOptionPane.showMessageDialog(null, lista);
     }//GEN-LAST:event_btnconsultarActionPerformed
-
-    private void txtIdentificacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdentificacionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtIdentificacionActionPerformed
 
     /**
      * @param args the command line arguments
